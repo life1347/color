@@ -1,21 +1,15 @@
-# Archived project. No maintenance. 
+# Color [![GoDoc](https://godoc.org/github.com/life1347/color?status.svg)](https://godoc.org/github.com/life1347/color) [![Build Status](https://img.shields.io/travis/life1347/color.svg?style=flat-square)](https://travis-ci.org/life1347/color)
 
-This project is not maintained anymore and is archived. Feel free to fork and
-make your own changes if needed. For more detail read my blog post: [Taking an indefinite sabbatical from my projects](https://arslan.io/2018/10/09/taking-an-indefinite-sabbatical-from-my-projects/)
-
-Thanks to everyone for their valuable feedback and contributions.
-
-
-# Color [![GoDoc](https://godoc.org/github.com/fatih/color?status.svg)](https://godoc.org/github.com/fatih/color) [![Build Status](https://img.shields.io/travis/fatih/color.svg?style=flat-square)](https://travis-ci.org/fatih/color)
+**This repository is forked from [color](https://github.com/fatih/color) package. 
+I'm trying to help this awesome project to keep up with the latest Go version. Most 
+of the credit should go to Fatih Arslan and contributors of the original color package.**
 
 Color lets you use colorized outputs in terms of [ANSI Escape
 Codes](http://en.wikipedia.org/wiki/ANSI_escape_code#Colors) in Go (Golang). It
 has support for Windows too! The API can be used in several ways, pick one that
 suits you.
 
-
 ![Color](https://i.imgur.com/c1JI0lA.png)
-
 
 ## Install
 
@@ -172,7 +166,6 @@ c.Println("This prints again cyan...")
 
 * Save/Return previous values
 * Evaluate fmt.Formatter interface
-
 
 ## Credits
 
